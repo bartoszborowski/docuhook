@@ -1,6 +1,6 @@
 [project]
 name = "docuhook"
-version = "0.1.0"
+version = "0.1.1"
 description = "A pre-commit hook that uses AI to automatically generate Python docstrings."
 authors = [{ name = "Bartosz Borowski", email = "contact@bborowski.pl" }]
 readme = "README.md"
@@ -19,3 +19,7 @@ build-backend = "poetry.core.masonry.api"
 
 [project.scripts]
 docuhook = "docuhook.main:main"
+
+[project.urls]
+Homepage = "https://github.com/bartoszborowski/docuhook"
+Repository = "https://github.com/bartoszborowski/docuhook"
